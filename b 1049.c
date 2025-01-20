@@ -1,47 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    char W1[100], W2[100], W3[100];
-    scanf("%s %s %s",&W1,&W2,&W3);
+    char a[100];
+    char b[100];
+    char c[100];
+    scanf("%s", a);
+    scanf("%s", b);
+    scanf("%s", c);
 
-    if(W1[0] == 'v' && W2[0] =='a' && W3[0] == 'c' )
-    {
-        printf("aguia\n");
-    }
+    if (a[0] == 'v' && b[0] == 'a' && c[0] == 'c')printf("aguia\n");
+    if (a[0] == 'v' && b[0] == 'a' && c[0] == 'o')printf("pomba\n");
+    if (a[0] == 'v' && b[0] == 'm' && c[0] == 'o')printf("homem\n");
+    if (a[0] == 'v' && b[0] == 'm' && c[0] == 'h')printf("vaca\n");
+    if (a[0] == 'i' && b[0] == 'i' && c[2] == 'm')printf("pulga\n");
+    if (a[0] == 'i' && b[0] == 'i' && c[2] == 'r')printf("lagarta\n");
+    if (a[0] == 'i' && b[0] == 'a' && c[0] == 'h')printf("sanguessuga\n");
+    if (a[0] == 'i' && b[0] == 'a' && c[0] == 'o')printf("minhoca\n");
 
-    if(W1[0] == 'v' && W2[0] =='a' && W3[0] == 'o' )
-    {
-        printf("pomba\n");
-    }
-
-    if(W1[0] == 'v' && W2[0] =='m' && W3[0] == 'o' )
-    {
-        printf("homem\n");
-    }
-
-    if(W1[0] == 'v' && W2[0] =='m' && W3[0] == 'h' )
-    {
-        printf("vaca\n");
-    }
-
-    if(W1[0] == 'i' && W2[2] =='s' && W3[0] == 'h' )
-    {
-        printf("pulga\n");
-    }
-
-    if(W1[0] == 'i' && W2[2] =='s' && W3[2] == 'r' )
-    {
-        printf("lagarta\n");
-    }
-
-    if(W1[0] == 'i' && W2[1] =='n' && W3[0] == 'h' )
-    {
-        printf("sanguessuga\n");
-    }
-
-    if(W1[0] == 'i' && W2[1] =='n' && W3[0] == 'o' )
-    {
-        printf("minhoca\n");
-    }
     return 0;
 }
