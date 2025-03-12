@@ -1,2 +1,3 @@
-My first function
-The sum is = 30
+Hello! I am from inside of a function
+
+Even
