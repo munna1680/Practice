@@ -18,12 +18,10 @@ void val_f(int a)
 
 }
 
-
-
 int main()
 {
     hello_f();
-    
+
     printf("\n");
 
     val_f(100);
