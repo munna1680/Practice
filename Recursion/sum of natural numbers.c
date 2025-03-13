@@ -5,11 +5,8 @@ int sum_n(int a)
     if(a == 0)
     return 0;
 
-    else if(a == 1)
-    return 1;
-
     else
-    return ((a *(a+1))/2);
+    return (a + sum_n(a-1));
     
 }
 
