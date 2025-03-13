@@ -24,7 +24,9 @@ int main()
 
     printf("\n");
 
-    val_f(100);
+    int A;
+    scanf("%d",&A);
+    val_f(A);
 
     return 0;
 }

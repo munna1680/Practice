@@ -6,7 +6,7 @@ void divisor(int a)
     {
         if(a % i == 0)
         {
-            printf("%d\n",i);
+            printf("%d ",i);
         }
     }
 }
