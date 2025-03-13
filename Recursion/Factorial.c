@@ -23,7 +23,5 @@ int main()
 
     printf("%d\n",factorial);
 
-
-
     return 0;
 }
